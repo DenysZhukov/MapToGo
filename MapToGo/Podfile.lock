@@ -1,3 +1,40 @@
-PODFILE CHECKSUM: c85be6c7e3d8c46094cd3ff9f10fff1d25445c3f
+PODS:
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - ReachabilitySwift (4.1.0)
+  - SnapKit (4.0.0)
+  - SwiftMessages (4.1.2)
+
+DEPENDENCIES:
+  - GoogleMaps (~> 2.6.0)
+  - R.swift (~> 4.0.0)
+  - ReachabilitySwift (~> 4.1.0)
+  - SnapKit (~> 4.0.0)
+  - SwiftMessages (~> 4.1.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GoogleMaps
+    - R.swift
+    - R.swift.Library
+    - ReachabilitySwift
+    - SnapKit
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftMessages: d81f48c1f8b6bc1dbebdfffe11226f0344f937ca
+
+PODFILE CHECKSUM: f2025c4f69cb8ce8490d4b44c76a68ac793affdc
 
 COCOAPODS: 1.5.0

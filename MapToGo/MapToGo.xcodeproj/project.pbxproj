@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68C4B677E6A72038DE84A3CF /* Pods_MapToGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6B82E67FFFF0EFA82B2BC0 /* Pods_MapToGoTests.framework */; };
-		774BDFBD603E25BCFCB36550 /* Pods_MapToGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04488249EF881F6FD391F55 /* Pods_MapToGoUITests.framework */; };
 		9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */; };
 		9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2E2080E5F4008C6864 /* ViewController.swift */; };
 		9A2A5A322080E5F4008C6864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A302080E5F4008C6864 /* Main.storyboard */; };
@@ -39,10 +37,6 @@
 
 /* Begin PBXFileReference section */
 		0490F237FAC64EA239337C2A /* Pods_MapToGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapToGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A3F27DC832FF13750F90F50 /* Pods-MapToGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGoTests/Pods-MapToGoTests.release.xcconfig"; sourceTree = "<group>"; };
-		2C01085A895799177DA462D6 /* Pods-MapToGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGoUITests/Pods-MapToGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		59F89651E9455DA028B53AC9 /* Pods-MapToGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGoTests/Pods-MapToGoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FD4784CC1C66B6CB03A4832 /* Pods-MapToGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGoUITests/Pods-MapToGoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E6B82E67FFFF0EFA82B2BC0 /* Pods_MapToGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapToGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A292080E5F4008C6864 /* MapToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C4B677E6A72038DE84A3CF /* Pods_MapToGoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774BDFBD603E25BCFCB36550 /* Pods_MapToGoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +118,7 @@
 		9A2A5A2B2080E5F4008C6864 /* MapToGo */ = {
 			isa = PBXGroup;
 			children = (
+				9A37260B2080F0E200070267 /* AppFlowManager */,
 				9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */,
 				9A2A5A2E2080E5F4008C6864 /* ViewController.swift */,
 				9A2A5A302080E5F4008C6864 /* Main.storyboard */,
@@ -155,15 +148,18 @@
 			path = MapToGoUITests;
 			sourceTree = "<group>";
 		};
+		9A37260B2080F0E200070267 /* AppFlowManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppFlowManager;
+			sourceTree = "<group>";
+		};
 		C3ABFB5D1DBC9C3298F770CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				CC3968CF78B9D04B1B4D9409 /* Pods-MapToGo.debug.xcconfig */,
 				E8F806F9904FD326DBFA73E9 /* Pods-MapToGo.release.xcconfig */,
-				59F89651E9455DA028B53AC9 /* Pods-MapToGoTests.debug.xcconfig */,
-				0A3F27DC832FF13750F90F50 /* Pods-MapToGoTests.release.xcconfig */,
-				2C01085A895799177DA462D6 /* Pods-MapToGoUITests.debug.xcconfig */,
-				7FD4784CC1C66B6CB03A4832 /* Pods-MapToGoUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -179,6 +175,8 @@
 				9A2A5A252080E5F4008C6864 /* Sources */,
 				9A2A5A262080E5F4008C6864 /* Frameworks */,
 				9A2A5A272080E5F4008C6864 /* Resources */,
+				406B8AEAE15491F06955BB92 /* [CP] Embed Pods Frameworks */,
+				01E010768E1CD1CD21305D80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +191,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2A5A572080E5F5008C6864 /* Build configuration list for PBXNativeTarget "MapToGoTests" */;
 			buildPhases = (
-				D478DAE76C5035695C12E0D3 /* [CP] Check Pods Manifest.lock */,
 				9A2A5A3C2080E5F5008C6864 /* Sources */,
 				9A2A5A3D2080E5F5008C6864 /* Frameworks */,
 				9A2A5A3E2080E5F5008C6864 /* Resources */,
@@ -212,7 +209,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2A5A5A2080E5F5008C6864 /* Build configuration list for PBXNativeTarget "MapToGoUITests" */;
 			buildPhases = (
-				EC71DBA21A19B6D7E3B51E43 /* [CP] Check Pods Manifest.lock */,
 				9A2A5A472080E5F5008C6864 /* Sources */,
 				9A2A5A482080E5F5008C6864 /* Frameworks */,
 				9A2A5A492080E5F5008C6864 /* Resources */,
@@ -298,22 +294,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D478DAE76C5035695C12E0D3 /* [CP] Check Pods Manifest.lock */ = {
+		01E010768E1CD1CD21305D80 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MapToGoTests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406B8AEAE15491F06955BB92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA205854376E419CA951FA9F /* [CP] Check Pods Manifest.lock */ = {
@@ -328,24 +348,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MapToGo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC71DBA21A19B6D7E3B51E43 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MapToGoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -564,7 +566,6 @@
 		};
 		9A2A5A582080E5F5008C6864 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F89651E9455DA028B53AC9 /* Pods-MapToGoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -581,7 +582,6 @@
 		};
 		9A2A5A592080E5F5008C6864 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A3F27DC832FF13750F90F50 /* Pods-MapToGoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -598,7 +598,6 @@
 		};
 		9A2A5A5B2080E5F5008C6864 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C01085A895799177DA462D6 /* Pods-MapToGoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -614,7 +613,6 @@
 		};
 		9A2A5A5C2080E5F5008C6864 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FD4784CC1C66B6CB03A4832 /* Pods-MapToGoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
