@@ -1,0 +1,6 @@
+framework module Pods_MapToGoUITests {
+  umbrella header "Pods-MapToGoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
