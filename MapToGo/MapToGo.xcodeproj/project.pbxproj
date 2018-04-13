@@ -15,6 +15,7 @@
 		9A2A5A3A2080E5F5008C6864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A382080E5F5008C6864 /* LaunchScreen.storyboard */; };
 		9A2A5A452080E5F5008C6864 /* MapToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A442080E5F5008C6864 /* MapToGoTests.swift */; };
 		9A2A5A502080E5F5008C6864 /* MapToGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A4F2080E5F5008C6864 /* MapToGoUITests.swift */; };
+		9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260C2081027500070267 /* ApplicationFlowManager.swift */; };
 		B9BA03BC5E9326F200487838 /* Pods_MapToGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490F237FAC64EA239337C2A /* Pods_MapToGo.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		9A2A5A4B2080E5F5008C6864 /* MapToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A4F2080E5F5008C6864 /* MapToGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToGoUITests.swift; sourceTree = "<group>"; };
 		9A2A5A512080E5F5008C6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A37260C2081027500070267 /* ApplicationFlowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowManager.swift; sourceTree = "<group>"; };
 		A04488249EF881F6FD391F55 /* Pods_MapToGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapToGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3968CF78B9D04B1B4D9409 /* Pods-MapToGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo.debug.xcconfig"; sourceTree = "<group>"; };
 		E8F806F9904FD326DBFA73E9 /* Pods-MapToGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		9A37260B2080F0E200070267 /* AppFlowManager */ = {
 			isa = PBXGroup;
 			children = (
+				9A37260C2081027500070267 /* ApplicationFlowManager.swift */,
 			);
 			path = AppFlowManager;
 			sourceTree = "<group>";
@@ -302,10 +305,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,6 +368,7 @@
 			files = (
 				9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */,
 				9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */,
+				9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */,
 				9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

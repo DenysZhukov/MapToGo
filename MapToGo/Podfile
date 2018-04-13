@@ -10,7 +10,7 @@ target 'MapToGo' do
     
     #Google services
     pod 'GoogleMaps', '~> 2.6.0'
-    
+    pod 'GooglePlaces', '~> 2.6.0'
     #Helpers
     pod 'ReachabilitySwift', '~> 4.1.0'
     
