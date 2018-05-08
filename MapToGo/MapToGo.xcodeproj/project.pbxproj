@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */; };
 		9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2E2080E5F4008C6864 /* ViewController.swift */; };
-		9A2A5A322080E5F4008C6864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A302080E5F4008C6864 /* Main.storyboard */; };
+		9A2A5A322080E5F4008C6864 /* MainFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A302080E5F4008C6864 /* MainFlow.storyboard */; };
 		9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A332080E5F4008C6864 /* MapToGo.xcdatamodeld */; };
 		9A2A5A372080E5F5008C6864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A362080E5F5008C6864 /* Assets.xcassets */; };
 		9A2A5A3A2080E5F5008C6864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A382080E5F5008C6864 /* LaunchScreen.storyboard */; };
 		9A2A5A452080E5F5008C6864 /* MapToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A442080E5F5008C6864 /* MapToGoTests.swift */; };
 		9A2A5A502080E5F5008C6864 /* MapToGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A4F2080E5F5008C6864 /* MapToGoUITests.swift */; };
 		9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260C2081027500070267 /* ApplicationFlowManager.swift */; };
+		9A37260F2081080500070267 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260E2081080500070267 /* Services.swift */; };
+		9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37261020810AFD00070267 /* ReachabilityManager.swift */; };
+		9AB0C34F2084B3BA00F250BA /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C34E2084B3BA00F250BA /* Configurable.swift */; };
+		9AD48F3A20A1E91800BA18E4 /* CATransitionWithCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD48F3920A1E91800BA18E4 /* CATransitionWithCallback.swift */; };
+		9AD48F3D20A1EDB200BA18E4 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD48F3C20A1EDB200BA18E4 /* Notifications.swift */; };
 		B9BA03BC5E9326F200487838 /* Pods_MapToGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490F237FAC64EA239337C2A /* Pods_MapToGo.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +47,7 @@
 		9A2A5A292080E5F4008C6864 /* MapToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A2A5A2E2080E5F4008C6864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A2A5A312080E5F4008C6864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A2A5A312080E5F4008C6864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainFlow.storyboard; sourceTree = "<group>"; };
 		9A2A5A342080E5F4008C6864 /* MapToGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapToGo.xcdatamodel; sourceTree = "<group>"; };
 		9A2A5A362080E5F5008C6864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A2A5A392080E5F5008C6864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +59,11 @@
 		9A2A5A4F2080E5F5008C6864 /* MapToGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToGoUITests.swift; sourceTree = "<group>"; };
 		9A2A5A512080E5F5008C6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A37260C2081027500070267 /* ApplicationFlowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowManager.swift; sourceTree = "<group>"; };
+		9A37260E2081080500070267 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		9A37261020810AFD00070267 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		9AB0C34E2084B3BA00F250BA /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		9AD48F3920A1E91800BA18E4 /* CATransitionWithCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATransitionWithCallback.swift; sourceTree = "<group>"; };
+		9AD48F3C20A1EDB200BA18E4 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		A04488249EF881F6FD391F55 /* Pods_MapToGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapToGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3968CF78B9D04B1B4D9409 /* Pods-MapToGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo.debug.xcconfig"; sourceTree = "<group>"; };
 		E8F806F9904FD326DBFA73E9 /* Pods-MapToGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,10 +130,12 @@
 		9A2A5A2B2080E5F4008C6864 /* MapToGo */ = {
 			isa = PBXGroup;
 			children = (
+				9AD48F3720A1E8CC00BA18E4 /* Global */,
+				9AB0C34D2084B38700F250BA /* Protocols */,
 				9A37260B2080F0E200070267 /* AppFlowManager */,
 				9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */,
 				9A2A5A2E2080E5F4008C6864 /* ViewController.swift */,
-				9A2A5A302080E5F4008C6864 /* Main.storyboard */,
+				9A2A5A302080E5F4008C6864 /* MainFlow.storyboard */,
 				9A2A5A362080E5F5008C6864 /* Assets.xcassets */,
 				9A2A5A382080E5F5008C6864 /* LaunchScreen.storyboard */,
 				9A2A5A3B2080E5F5008C6864 /* Info.plist */,
@@ -154,8 +166,43 @@
 			isa = PBXGroup;
 			children = (
 				9A37260C2081027500070267 /* ApplicationFlowManager.swift */,
+				9A37260E2081080500070267 /* Services.swift */,
+				9A37261020810AFD00070267 /* ReachabilityManager.swift */,
 			);
 			path = AppFlowManager;
+			sourceTree = "<group>";
+		};
+		9AB0C34D2084B38700F250BA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0C34E2084B3BA00F250BA /* Configurable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9AD48F3720A1E8CC00BA18E4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9AD48F3B20A1ED9C00BA18E4 /* Notifications */,
+				9AD48F3820A1E8F400BA18E4 /* Custom */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		9AD48F3820A1E8F400BA18E4 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9AD48F3920A1E91800BA18E4 /* CATransitionWithCallback.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		9AD48F3B20A1ED9C00BA18E4 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				9AD48F3C20A1EDB200BA18E4 /* Notifications.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 		C3ABFB5D1DBC9C3298F770CA /* Pods */ = {
@@ -276,7 +323,7 @@
 			files = (
 				9A2A5A3A2080E5F5008C6864 /* LaunchScreen.storyboard in Resources */,
 				9A2A5A372080E5F5008C6864 /* Assets.xcassets in Resources */,
-				9A2A5A322080E5F4008C6864 /* Main.storyboard in Resources */,
+				9A2A5A322080E5F4008C6864 /* MainFlow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,9 +413,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A37260F2081080500070267 /* Services.swift in Sources */,
+				9AD48F3A20A1E91800BA18E4 /* CATransitionWithCallback.swift in Sources */,
 				9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */,
+				9AD48F3D20A1EDB200BA18E4 /* Notifications.swift in Sources */,
 				9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */,
+				9AB0C34F2084B3BA00F250BA /* Configurable.swift in Sources */,
 				9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */,
+				9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */,
 				9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,12 +457,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A2A5A302080E5F4008C6864 /* Main.storyboard */ = {
+		9A2A5A302080E5F4008C6864 /* MainFlow.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9A2A5A312080E5F4008C6864 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainFlow.storyboard;
 			sourceTree = "<group>";
 		};
 		9A2A5A382080E5F5008C6864 /* LaunchScreen.storyboard */ = {
@@ -546,7 +598,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapToGo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -562,7 +617,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapToGo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -577,7 +635,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -593,7 +655,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -608,7 +674,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -623,7 +693,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
