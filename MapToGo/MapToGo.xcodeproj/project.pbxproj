@@ -17,6 +17,12 @@
 		9A37260F2081080500070267 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260E2081080500070267 /* Services.swift */; };
 		9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37261020810AFD00070267 /* ReachabilityManager.swift */; };
 		9A42D1DD20A3B37E00A3234C /* MainFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1DC20A3B37E00A3234C /* MainFlowViewController.swift */; };
+		9A42D1E120A3B5D900A3234C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1E020A3B5D900A3234C /* TabBarView.swift */; };
+		9A42D1E320A3B6AB00A3234C /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A42D1E220A3B6AB00A3234C /* TabBarView.xib */; };
+		9A42D1E620A3BB6D00A3234C /* TabBarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A42D1E520A3BB6D00A3234C /* TabBarItem.xib */; };
+		9A42D1E820A3BB7700A3234C /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1E720A3BB7700A3234C /* TabBarItem.swift */; };
+		9A42D1EB20A3C0BB00A3234C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */; };
+		9A42D1ED20A3C1EF00A3234C /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */; };
 		9A84347520A1FDEC003038AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347120A1FDEC003038AD /* LaunchScreen.storyboard */; };
 		9A84347620A1FDEC003038AD /* MainFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347320A1FDEC003038AD /* MainFlow.storyboard */; };
 		9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */; };
@@ -63,6 +69,12 @@
 		9A37260E2081080500070267 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		9A37261020810AFD00070267 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		9A42D1DC20A3B37E00A3234C /* MainFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowViewController.swift; sourceTree = "<group>"; };
+		9A42D1E020A3B5D900A3234C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		9A42D1E220A3B6AB00A3234C /* TabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
+		9A42D1E520A3BB6D00A3234C /* TabBarItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarItem.xib; sourceTree = "<group>"; };
+		9A42D1E720A3BB7700A3234C /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
 		9A84347220A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A84347420A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainFlow.storyboard; sourceTree = "<group>"; };
 		9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +188,50 @@
 			path = AppFlowManager;
 			sourceTree = "<group>";
 		};
+		9A42D1DE20A3B40B00A3234C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1DF20A3B53D00A3234C /* TabBarView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A42D1DF20A3B53D00A3234C /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1E420A3BB5D00A3234C /* TabBarItem */,
+				9A42D1E020A3B5D900A3234C /* TabBarView.swift */,
+				9A42D1E220A3B6AB00A3234C /* TabBarView.xib */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		9A42D1E420A3BB5D00A3234C /* TabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1E720A3BB7700A3234C /* TabBarItem.swift */,
+				9A42D1E520A3BB6D00A3234C /* TabBarItem.xib */,
+			);
+			path = TabBarItem;
+			sourceTree = "<group>";
+		};
+		9A42D1E920A3C0A000A3234C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1EE20A3C35700A3234C /* UI */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A42D1EE20A3C35700A3234C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */,
+				9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		9A84346E20A1FD71003038AD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +243,7 @@
 		9A84346F20A1FD8B003038AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9A42D1DE20A3B40B00A3234C /* Views */,
 				9A2A5A3B2080E5F5008C6864 /* Info.plist */,
 				9A84347720A1FECE003038AD /* Assets */,
 				9A84347020A1FD92003038AD /* Storyboards */,
@@ -248,6 +305,7 @@
 		9AD48F3720A1E8CC00BA18E4 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				9A42D1E920A3C0A000A3234C /* Extensions */,
 				9A84347E20A20048003038AD /* Common */,
 				9AD48F3820A1E8F400BA18E4 /* Custom */,
 			);
@@ -378,8 +436,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A42D1E620A3BB6D00A3234C /* TabBarItem.xib in Resources */,
 				9A2A5A372080E5F5008C6864 /* Assets.xcassets in Resources */,
 				9A84347620A1FDEC003038AD /* MainFlow.storyboard in Resources */,
+				9A42D1E320A3B6AB00A3234C /* TabBarView.xib in Resources */,
 				9A84347520A1FDEC003038AD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +532,10 @@
 			files = (
 				9A37260F2081080500070267 /* Services.swift in Sources */,
 				9AD48F3A20A1E91800BA18E4 /* CATransitionWithCallback.swift in Sources */,
+				9A42D1ED20A3C1EF00A3234C /* UIFontExtension.swift in Sources */,
+				9A42D1E120A3B5D900A3234C /* TabBarView.swift in Sources */,
 				9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */,
+				9A42D1E820A3BB7700A3234C /* TabBarItem.swift in Sources */,
 				9AD48F3D20A1EDB200BA18E4 /* Notifications.swift in Sources */,
 				9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */,
 				9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */,
@@ -482,6 +545,7 @@
 				9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */,
 				9A84348020A20064003038AD /* Closures.swift in Sources */,
 				9A42D1DD20A3B37E00A3234C /* MainFlowViewController.swift in Sources */,
+				9A42D1EB20A3C0BB00A3234C /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
