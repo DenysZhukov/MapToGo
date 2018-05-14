@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pyl-Cm-Cju">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="w6B-aS-aR0">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Pyl-Cm-Cju" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mrt-Z1-e23">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mU7-Gh-fh7" kind="relationship" relationship="rootViewController" id="jTB-Sv-B9z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gsx-sZ-6UC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1370" y="-50"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="chh-ta-V6b">
+            <objects>
+                <viewController id="mU7-Gh-fh7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eSc-Io-eXm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kvL-Fs-ARy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A5k-H2-2kT">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="607"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRZ-aC-THe" customClass="TabBarView" customModule="MapToGo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.84313725490000002" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="we3-Rn-0pU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uRZ-aC-THe" secondAttribute="trailing" id="3Uq-xY-4HK"/>
+                                    <constraint firstAttribute="trailing" secondItem="A5k-H2-2kT" secondAttribute="trailing" id="5xf-4I-Pz6"/>
+                                    <constraint firstItem="A5k-H2-2kT" firstAttribute="top" secondItem="kvL-Fs-ARy" secondAttribute="top" id="68w-3F-CVE"/>
+                                    <constraint firstItem="uRZ-aC-THe" firstAttribute="top" secondItem="A5k-H2-2kT" secondAttribute="bottom" id="6Lz-pc-dzf"/>
+                                    <constraint firstAttribute="bottom" secondItem="uRZ-aC-THe" secondAttribute="bottom" id="EgQ-kK-5EM"/>
+                                    <constraint firstItem="A5k-H2-2kT" firstAttribute="leading" secondItem="kvL-Fs-ARy" secondAttribute="leading" id="U32-Vg-YgW"/>
+                                    <constraint firstItem="uRZ-aC-THe" firstAttribute="leading" secondItem="kvL-Fs-ARy" secondAttribute="leading" id="upb-vO-vka"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kvL-Fs-ARy" firstAttribute="trailing" secondItem="5hS-Rm-IXp" secondAttribute="trailing" id="2Lm-6c-ltx"/>
+                            <constraint firstItem="kvL-Fs-ARy" firstAttribute="bottom" secondItem="5hS-Rm-IXp" secondAttribute="bottom" id="SsH-Vc-CW7"/>
+                            <constraint firstItem="kvL-Fs-ARy" firstAttribute="leading" secondItem="5hS-Rm-IXp" secondAttribute="leading" id="l3R-ms-4nM"/>
+                            <constraint firstItem="kvL-Fs-ARy" firstAttribute="top" secondItem="eSc-Io-eXm" secondAttribute="top" id="yx7-3A-tK0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5hS-Rm-IXp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l5s-0s-t4i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cs4-1I-aPO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551.20000000000005" y="-51.724137931034484"/>
+        </scene>
+    </scenes>
+</document>

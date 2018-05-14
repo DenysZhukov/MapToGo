@@ -8,13 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */; };
-		9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2E2080E5F4008C6864 /* ViewController.swift */; };
-		9A2A5A322080E5F4008C6864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A302080E5F4008C6864 /* Main.storyboard */; };
 		9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A332080E5F4008C6864 /* MapToGo.xcdatamodeld */; };
 		9A2A5A372080E5F5008C6864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A362080E5F5008C6864 /* Assets.xcassets */; };
-		9A2A5A3A2080E5F5008C6864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A382080E5F5008C6864 /* LaunchScreen.storyboard */; };
 		9A2A5A452080E5F5008C6864 /* MapToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A442080E5F5008C6864 /* MapToGoTests.swift */; };
 		9A2A5A502080E5F5008C6864 /* MapToGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A4F2080E5F5008C6864 /* MapToGoUITests.swift */; };
+		9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260C2081027500070267 /* ApplicationFlowManager.swift */; };
+		9A37260F2081080500070267 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260E2081080500070267 /* Services.swift */; };
+		9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37261020810AFD00070267 /* ReachabilityManager.swift */; };
+		9A37F0E420A9DD68006B6A78 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0DE20A9DD68006B6A78 /* OpenSans-Semibold.ttf */; };
+		9A37F0E520A9DD68006B6A78 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0DF20A9DD68006B6A78 /* OpenSans-Light.ttf */; };
+		9A37F0E620A9DD68006B6A78 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E020A9DD68006B6A78 /* OpenSans-Italic.ttf */; };
+		9A37F0E720A9DD68006B6A78 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E120A9DD68006B6A78 /* OpenSans-ExtraBold.ttf */; };
+		9A37F0E820A9DD68006B6A78 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E220A9DD68006B6A78 /* OpenSans-Bold.ttf */; };
+		9A37F0E920A9DD68006B6A78 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E320A9DD68006B6A78 /* OpenSans-Regular.ttf */; };
+		9A42D1DD20A3B37E00A3234C /* MainFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1DC20A3B37E00A3234C /* MainFlowViewController.swift */; };
+		9A42D1E120A3B5D900A3234C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1E020A3B5D900A3234C /* TabBarView.swift */; };
+		9A42D1E620A3BB6D00A3234C /* TabBarItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A42D1E520A3BB6D00A3234C /* TabBarItemView.xib */; };
+		9A42D1E820A3BB7700A3234C /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1E720A3BB7700A3234C /* TabBarItemView.swift */; };
+		9A42D1EB20A3C0BB00A3234C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */; };
+		9A42D1ED20A3C1EF00A3234C /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */; };
+		9A45A0F220A4984F00E34703 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A45A0F120A4984F00E34703 /* Info.plist */; };
+		9A45A10520A49F3300E34703 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A10420A49F3300E34703 /* R.generated.swift */; };
+		9A45A10720A4A11500E34703 /* UIViewExtension+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */; };
+		9A84347520A1FDEC003038AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347120A1FDEC003038AD /* LaunchScreen.storyboard */; };
+		9A84347620A1FDEC003038AD /* MainFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347320A1FDEC003038AD /* MainFlow.storyboard */; };
+		9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */; };
+		9A84348020A20064003038AD /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84347F20A20064003038AD /* Closures.swift */; };
+		9AB0C34F2084B3BA00F250BA /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C34E2084B3BA00F250BA /* Configurable.swift */; };
+		9AD48F3A20A1E91800BA18E4 /* CATransitionWithCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD48F3920A1E91800BA18E4 /* CATransitionWithCallback.swift */; };
+		9AD48F3D20A1EDB200BA18E4 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD48F3C20A1EDB200BA18E4 /* Notifications.swift */; };
 		B9BA03BC5E9326F200487838 /* Pods_MapToGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490F237FAC64EA239337C2A /* Pods_MapToGo.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,18 +62,39 @@
 		8E6B82E67FFFF0EFA82B2BC0 /* Pods_MapToGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapToGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A292080E5F4008C6864 /* MapToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A2A5A2E2080E5F4008C6864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A2A5A312080E5F4008C6864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A2A5A342080E5F4008C6864 /* MapToGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapToGo.xcdatamodel; sourceTree = "<group>"; };
 		9A2A5A362080E5F5008C6864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A2A5A392080E5F5008C6864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9A2A5A3B2080E5F5008C6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A2A5A402080E5F5008C6864 /* MapToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A442080E5F5008C6864 /* MapToGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToGoTests.swift; sourceTree = "<group>"; };
 		9A2A5A462080E5F5008C6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A2A5A4B2080E5F5008C6864 /* MapToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A4F2080E5F5008C6864 /* MapToGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToGoUITests.swift; sourceTree = "<group>"; };
 		9A2A5A512080E5F5008C6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A37260C2081027500070267 /* ApplicationFlowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowManager.swift; sourceTree = "<group>"; };
+		9A37260E2081080500070267 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		9A37261020810AFD00070267 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		9A37F0DE20A9DD68006B6A78 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		9A37F0DF20A9DD68006B6A78 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		9A37F0E020A9DD68006B6A78 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		9A37F0E120A9DD68006B6A78 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9A37F0E220A9DD68006B6A78 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		9A37F0E320A9DD68006B6A78 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		9A42D1DC20A3B37E00A3234C /* MainFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowViewController.swift; sourceTree = "<group>"; };
+		9A42D1E020A3B5D900A3234C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		9A42D1E520A3BB6D00A3234C /* TabBarItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarItemView.xib; sourceTree = "<group>"; };
+		9A42D1E720A3BB7700A3234C /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
+		9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		9A45A0F120A4984F00E34703 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MapToGo/Info.plist; sourceTree = SOURCE_ROOT; };
+		9A45A10420A49F3300E34703 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewExtension+Helper.swift"; sourceTree = "<group>"; };
+		9A84347220A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A84347420A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainFlow.storyboard; sourceTree = "<group>"; };
+		9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
+		9A84347F20A20064003038AD /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		9AB0C34E2084B3BA00F250BA /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		9AD48F3920A1E91800BA18E4 /* CATransitionWithCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATransitionWithCallback.swift; sourceTree = "<group>"; };
+		9AD48F3C20A1EDB200BA18E4 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		A04488249EF881F6FD391F55 /* Pods_MapToGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapToGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3968CF78B9D04B1B4D9409 /* Pods-MapToGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo.debug.xcconfig"; sourceTree = "<group>"; };
 		E8F806F9904FD326DBFA73E9 /* Pods-MapToGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapToGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,14 +161,15 @@
 		9A2A5A2B2080E5F4008C6864 /* MapToGo */ = {
 			isa = PBXGroup;
 			children = (
-				9A37260B2080F0E200070267 /* AppFlowManager */,
 				9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */,
-				9A2A5A2E2080E5F4008C6864 /* ViewController.swift */,
-				9A2A5A302080E5F4008C6864 /* Main.storyboard */,
-				9A2A5A362080E5F5008C6864 /* Assets.xcassets */,
-				9A2A5A382080E5F5008C6864 /* LaunchScreen.storyboard */,
-				9A2A5A3B2080E5F5008C6864 /* Info.plist */,
-				9A2A5A332080E5F4008C6864 /* MapToGo.xcdatamodeld */,
+				9A37260B2080F0E200070267 /* AppFlowManager */,
+				9A84346E20A1FD71003038AD /* Controllers */,
+				9A84347820A1FEFA003038AD /* DataBase */,
+				9A45A0F420A49B7100E34703 /* Generated */,
+				9AD48F3720A1E8CC00BA18E4 /* Global */,
+				9AB0C34D2084B38700F250BA /* Protocols */,
+				9A84346F20A1FD8B003038AD /* Resources */,
+				9A45A0EF20A492F400E34703 /* UI */,
 			);
 			path = MapToGo;
 			sourceTree = "<group>";
@@ -151,8 +195,180 @@
 		9A37260B2080F0E200070267 /* AppFlowManager */ = {
 			isa = PBXGroup;
 			children = (
+				9A37260C2081027500070267 /* ApplicationFlowManager.swift */,
+				9A37260E2081080500070267 /* Services.swift */,
+				9A37261020810AFD00070267 /* ReachabilityManager.swift */,
 			);
 			path = AppFlowManager;
+			sourceTree = "<group>";
+		};
+		9A37F0DC20A9DD68006B6A78 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A37F0DD20A9DD68006B6A78 /* OpenSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9A37F0DD20A9DD68006B6A78 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				9A37F0DE20A9DD68006B6A78 /* OpenSans-Semibold.ttf */,
+				9A37F0DF20A9DD68006B6A78 /* OpenSans-Light.ttf */,
+				9A37F0E020A9DD68006B6A78 /* OpenSans-Italic.ttf */,
+				9A37F0E120A9DD68006B6A78 /* OpenSans-ExtraBold.ttf */,
+				9A37F0E220A9DD68006B6A78 /* OpenSans-Bold.ttf */,
+				9A37F0E320A9DD68006B6A78 /* OpenSans-Regular.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		9A42D1DE20A3B40B00A3234C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1DF20A3B53D00A3234C /* TabBarView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A42D1DF20A3B53D00A3234C /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1E420A3BB5D00A3234C /* TabBarItem */,
+				9A42D1E020A3B5D900A3234C /* TabBarView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		9A42D1E420A3BB5D00A3234C /* TabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1E720A3BB7700A3234C /* TabBarItemView.swift */,
+				9A42D1E520A3BB6D00A3234C /* TabBarItemView.xib */,
+			);
+			path = TabBarItem;
+			sourceTree = "<group>";
+		};
+		9A42D1E920A3C0A000A3234C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1EE20A3C35700A3234C /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A42D1EE20A3C35700A3234C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */,
+				9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */,
+				9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		9A45A0EF20A492F400E34703 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A84347020A1FD92003038AD /* Storyboards */,
+				9A42D1DE20A3B40B00A3234C /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9A45A0F420A49B7100E34703 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9A45A10420A49F3300E34703 /* R.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		9A84346E20A1FD71003038AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A84347A20A1FF4D003038AD /* MainFlowViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A84346F20A1FD8B003038AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A45A0F120A4984F00E34703 /* Info.plist */,
+				9A84347720A1FECE003038AD /* Assets */,
+				9A37F0DC20A9DD68006B6A78 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A84347020A1FD92003038AD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A84347120A1FDEC003038AD /* LaunchScreen.storyboard */,
+				9A84347320A1FDEC003038AD /* MainFlow.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9A84347720A1FECE003038AD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9A2A5A362080E5F5008C6864 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9A84347820A1FEFA003038AD /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				9A2A5A332080E5F4008C6864 /* MapToGo.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		9A84347A20A1FF4D003038AD /* MainFlowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */,
+				9A42D1DC20A3B37E00A3234C /* MainFlowViewController.swift */,
+			);
+			path = MainFlowViewController;
+			sourceTree = "<group>";
+		};
+		9A84347E20A20048003038AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9AD48F3C20A1EDB200BA18E4 /* Notifications.swift */,
+				9A84347F20A20064003038AD /* Closures.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9AB0C34D2084B38700F250BA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0C34E2084B3BA00F250BA /* Configurable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9AD48F3720A1E8CC00BA18E4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9A42D1E920A3C0A000A3234C /* Extensions */,
+				9A84347E20A20048003038AD /* Common */,
+				9AD48F3820A1E8F400BA18E4 /* Custom */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		9AD48F3820A1E8F400BA18E4 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9AD48F3920A1E91800BA18E4 /* CATransitionWithCallback.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		C3ABFB5D1DBC9C3298F770CA /* Pods */ = {
@@ -172,6 +388,7 @@
 			buildConfigurationList = 9A2A5A542080E5F5008C6864 /* Build configuration list for PBXNativeTarget "MapToGo" */;
 			buildPhases = (
 				DA205854376E419CA951FA9F /* [CP] Check Pods Manifest.lock */,
+				9A45A0F320A49B4600E34703 /* R.Swift */,
 				9A2A5A252080E5F4008C6864 /* Sources */,
 				9A2A5A262080E5F4008C6864 /* Frameworks */,
 				9A2A5A272080E5F4008C6864 /* Resources */,
@@ -271,9 +488,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A2A5A3A2080E5F5008C6864 /* LaunchScreen.storyboard in Resources */,
+				9A37F0E420A9DD68006B6A78 /* OpenSans-Semibold.ttf in Resources */,
+				9A37F0E920A9DD68006B6A78 /* OpenSans-Regular.ttf in Resources */,
+				9A37F0E620A9DD68006B6A78 /* OpenSans-Italic.ttf in Resources */,
+				9A37F0E720A9DD68006B6A78 /* OpenSans-ExtraBold.ttf in Resources */,
+				9A42D1E620A3BB6D00A3234C /* TabBarItemView.xib in Resources */,
+				9A37F0E520A9DD68006B6A78 /* OpenSans-Light.ttf in Resources */,
 				9A2A5A372080E5F5008C6864 /* Assets.xcassets in Resources */,
-				9A2A5A322080E5F4008C6864 /* Main.storyboard in Resources */,
+				9A45A0F220A4984F00E34703 /* Info.plist in Resources */,
+				9A84347620A1FDEC003038AD /* MainFlow.storyboard in Resources */,
+				9A37F0E820A9DD68006B6A78 /* OpenSans-Bold.ttf in Resources */,
+				9A84347520A1FDEC003038AD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,10 +527,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -336,6 +563,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9A45A0F320A49B4600E34703 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.Swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/MapToGo/Generated\"";
+		};
 		DA205854376E419CA951FA9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,9 +602,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A37260F2081080500070267 /* Services.swift in Sources */,
+				9AD48F3A20A1E91800BA18E4 /* CATransitionWithCallback.swift in Sources */,
+				9A42D1ED20A3C1EF00A3234C /* UIFontExtension.swift in Sources */,
+				9A42D1E120A3B5D900A3234C /* TabBarView.swift in Sources */,
 				9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */,
-				9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */,
+				9A42D1E820A3BB7700A3234C /* TabBarItemView.swift in Sources */,
+				9AD48F3D20A1EDB200BA18E4 /* Notifications.swift in Sources */,
+				9A45A10520A49F3300E34703 /* R.generated.swift in Sources */,
+				9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */,
+				9A45A10720A4A11500E34703 /* UIViewExtension+Helper.swift in Sources */,
+				9AB0C34F2084B3BA00F250BA /* Configurable.swift in Sources */,
+				9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */,
+				9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */,
 				9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */,
+				9A84348020A20064003038AD /* Closures.swift in Sources */,
+				9A42D1DD20A3B37E00A3234C /* MainFlowViewController.swift in Sources */,
+				9A42D1EB20A3C0BB00A3234C /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,20 +654,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A2A5A302080E5F4008C6864 /* Main.storyboard */ = {
+		9A84347120A1FDEC003038AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A2A5A312080E5F4008C6864 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9A2A5A382080E5F5008C6864 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A2A5A392080E5F5008C6864 /* Base */,
+				9A84347220A1FDEC003038AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A84347320A1FDEC003038AD /* MainFlow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A84347420A1FDEC003038AD /* Base */,
+			);
+			name = MainFlow.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -540,7 +795,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapToGo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -556,7 +814,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapToGo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -571,7 +832,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -587,7 +852,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -602,7 +871,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -617,7 +890,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapToGoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhukovdenys.MapToGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
