@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9A2A5A2D2080E5F4008C6864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */; };
-		9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A2E2080E5F4008C6864 /* ViewController.swift */; };
 		9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A332080E5F4008C6864 /* MapToGo.xcdatamodeld */; };
 		9A2A5A372080E5F5008C6864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A5A362080E5F5008C6864 /* Assets.xcassets */; };
 		9A2A5A452080E5F5008C6864 /* MapToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A5A442080E5F5008C6864 /* MapToGoTests.swift */; };
@@ -16,13 +15,21 @@
 		9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260C2081027500070267 /* ApplicationFlowManager.swift */; };
 		9A37260F2081080500070267 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37260E2081080500070267 /* Services.swift */; };
 		9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37261020810AFD00070267 /* ReachabilityManager.swift */; };
+		9A37F0E420A9DD68006B6A78 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0DE20A9DD68006B6A78 /* OpenSans-Semibold.ttf */; };
+		9A37F0E520A9DD68006B6A78 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0DF20A9DD68006B6A78 /* OpenSans-Light.ttf */; };
+		9A37F0E620A9DD68006B6A78 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E020A9DD68006B6A78 /* OpenSans-Italic.ttf */; };
+		9A37F0E720A9DD68006B6A78 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E120A9DD68006B6A78 /* OpenSans-ExtraBold.ttf */; };
+		9A37F0E820A9DD68006B6A78 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E220A9DD68006B6A78 /* OpenSans-Bold.ttf */; };
+		9A37F0E920A9DD68006B6A78 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A37F0E320A9DD68006B6A78 /* OpenSans-Regular.ttf */; };
 		9A42D1DD20A3B37E00A3234C /* MainFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1DC20A3B37E00A3234C /* MainFlowViewController.swift */; };
 		9A42D1E120A3B5D900A3234C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1E020A3B5D900A3234C /* TabBarView.swift */; };
-		9A42D1E320A3B6AB00A3234C /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A42D1E220A3B6AB00A3234C /* TabBarView.xib */; };
-		9A42D1E620A3BB6D00A3234C /* TabBarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A42D1E520A3BB6D00A3234C /* TabBarItem.xib */; };
-		9A42D1E820A3BB7700A3234C /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1E720A3BB7700A3234C /* TabBarItem.swift */; };
+		9A42D1E620A3BB6D00A3234C /* TabBarItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A42D1E520A3BB6D00A3234C /* TabBarItemView.xib */; };
+		9A42D1E820A3BB7700A3234C /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1E720A3BB7700A3234C /* TabBarItemView.swift */; };
 		9A42D1EB20A3C0BB00A3234C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */; };
 		9A42D1ED20A3C1EF00A3234C /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */; };
+		9A45A0F220A4984F00E34703 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A45A0F120A4984F00E34703 /* Info.plist */; };
+		9A45A10520A49F3300E34703 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A10420A49F3300E34703 /* R.generated.swift */; };
+		9A45A10720A4A11500E34703 /* UIViewExtension+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */; };
 		9A84347520A1FDEC003038AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347120A1FDEC003038AD /* LaunchScreen.storyboard */; };
 		9A84347620A1FDEC003038AD /* MainFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347320A1FDEC003038AD /* MainFlow.storyboard */; };
 		9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */; };
@@ -55,10 +62,8 @@
 		8E6B82E67FFFF0EFA82B2BC0 /* Pods_MapToGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapToGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A292080E5F4008C6864 /* MapToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A2A5A2E2080E5F4008C6864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A2A5A342080E5F4008C6864 /* MapToGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapToGo.xcdatamodel; sourceTree = "<group>"; };
 		9A2A5A362080E5F5008C6864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A2A5A3B2080E5F5008C6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A2A5A402080E5F5008C6864 /* MapToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A5A442080E5F5008C6864 /* MapToGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToGoTests.swift; sourceTree = "<group>"; };
 		9A2A5A462080E5F5008C6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,13 +73,21 @@
 		9A37260C2081027500070267 /* ApplicationFlowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowManager.swift; sourceTree = "<group>"; };
 		9A37260E2081080500070267 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		9A37261020810AFD00070267 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		9A37F0DE20A9DD68006B6A78 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		9A37F0DF20A9DD68006B6A78 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		9A37F0E020A9DD68006B6A78 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		9A37F0E120A9DD68006B6A78 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9A37F0E220A9DD68006B6A78 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		9A37F0E320A9DD68006B6A78 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		9A42D1DC20A3B37E00A3234C /* MainFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowViewController.swift; sourceTree = "<group>"; };
 		9A42D1E020A3B5D900A3234C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		9A42D1E220A3B6AB00A3234C /* TabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
-		9A42D1E520A3BB6D00A3234C /* TabBarItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarItem.xib; sourceTree = "<group>"; };
-		9A42D1E720A3BB7700A3234C /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		9A42D1E520A3BB6D00A3234C /* TabBarItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarItemView.xib; sourceTree = "<group>"; };
+		9A42D1E720A3BB7700A3234C /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
 		9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		9A45A0F120A4984F00E34703 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MapToGo/Info.plist; sourceTree = SOURCE_ROOT; };
+		9A45A10420A49F3300E34703 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewExtension+Helper.swift"; sourceTree = "<group>"; };
 		9A84347220A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A84347420A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainFlow.storyboard; sourceTree = "<group>"; };
 		9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
@@ -148,14 +161,15 @@
 		9A2A5A2B2080E5F4008C6864 /* MapToGo */ = {
 			isa = PBXGroup;
 			children = (
-				9A84347820A1FEFA003038AD /* DataBase */,
-				9A84346F20A1FD8B003038AD /* Resources */,
+				9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */,
+				9A37260B2080F0E200070267 /* AppFlowManager */,
 				9A84346E20A1FD71003038AD /* Controllers */,
+				9A84347820A1FEFA003038AD /* DataBase */,
+				9A45A0F420A49B7100E34703 /* Generated */,
 				9AD48F3720A1E8CC00BA18E4 /* Global */,
 				9AB0C34D2084B38700F250BA /* Protocols */,
-				9A37260B2080F0E200070267 /* AppFlowManager */,
-				9A2A5A2C2080E5F4008C6864 /* AppDelegate.swift */,
-				9A2A5A2E2080E5F4008C6864 /* ViewController.swift */,
+				9A84346F20A1FD8B003038AD /* Resources */,
+				9A45A0EF20A492F400E34703 /* UI */,
 			);
 			path = MapToGo;
 			sourceTree = "<group>";
@@ -188,6 +202,27 @@
 			path = AppFlowManager;
 			sourceTree = "<group>";
 		};
+		9A37F0DC20A9DD68006B6A78 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A37F0DD20A9DD68006B6A78 /* OpenSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9A37F0DD20A9DD68006B6A78 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				9A37F0DE20A9DD68006B6A78 /* OpenSans-Semibold.ttf */,
+				9A37F0DF20A9DD68006B6A78 /* OpenSans-Light.ttf */,
+				9A37F0E020A9DD68006B6A78 /* OpenSans-Italic.ttf */,
+				9A37F0E120A9DD68006B6A78 /* OpenSans-ExtraBold.ttf */,
+				9A37F0E220A9DD68006B6A78 /* OpenSans-Bold.ttf */,
+				9A37F0E320A9DD68006B6A78 /* OpenSans-Regular.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
 		9A42D1DE20A3B40B00A3234C /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +236,6 @@
 			children = (
 				9A42D1E420A3BB5D00A3234C /* TabBarItem */,
 				9A42D1E020A3B5D900A3234C /* TabBarView.swift */,
-				9A42D1E220A3B6AB00A3234C /* TabBarView.xib */,
 			);
 			path = TabBarView;
 			sourceTree = "<group>";
@@ -209,8 +243,8 @@
 		9A42D1E420A3BB5D00A3234C /* TabBarItem */ = {
 			isa = PBXGroup;
 			children = (
-				9A42D1E720A3BB7700A3234C /* TabBarItem.swift */,
-				9A42D1E520A3BB6D00A3234C /* TabBarItem.xib */,
+				9A42D1E720A3BB7700A3234C /* TabBarItemView.swift */,
+				9A42D1E520A3BB6D00A3234C /* TabBarItemView.xib */,
 			);
 			path = TabBarItem;
 			sourceTree = "<group>";
@@ -218,18 +252,36 @@
 		9A42D1E920A3C0A000A3234C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9A42D1EE20A3C35700A3234C /* UI */,
+				9A42D1EE20A3C35700A3234C /* UIKit */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		9A42D1EE20A3C35700A3234C /* UI */ = {
+		9A42D1EE20A3C35700A3234C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
 				9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */,
 				9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */,
+				9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		9A45A0EF20A492F400E34703 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A84347020A1FD92003038AD /* Storyboards */,
+				9A42D1DE20A3B40B00A3234C /* Views */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		9A45A0F420A49B7100E34703 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9A45A10420A49F3300E34703 /* R.generated.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 		9A84346E20A1FD71003038AD /* Controllers */ = {
@@ -243,10 +295,9 @@
 		9A84346F20A1FD8B003038AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9A42D1DE20A3B40B00A3234C /* Views */,
-				9A2A5A3B2080E5F5008C6864 /* Info.plist */,
+				9A45A0F120A4984F00E34703 /* Info.plist */,
 				9A84347720A1FECE003038AD /* Assets */,
-				9A84347020A1FD92003038AD /* Storyboards */,
+				9A37F0DC20A9DD68006B6A78 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -337,6 +388,7 @@
 			buildConfigurationList = 9A2A5A542080E5F5008C6864 /* Build configuration list for PBXNativeTarget "MapToGo" */;
 			buildPhases = (
 				DA205854376E419CA951FA9F /* [CP] Check Pods Manifest.lock */,
+				9A45A0F320A49B4600E34703 /* R.Swift */,
 				9A2A5A252080E5F4008C6864 /* Sources */,
 				9A2A5A262080E5F4008C6864 /* Frameworks */,
 				9A2A5A272080E5F4008C6864 /* Resources */,
@@ -436,10 +488,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A42D1E620A3BB6D00A3234C /* TabBarItem.xib in Resources */,
+				9A37F0E420A9DD68006B6A78 /* OpenSans-Semibold.ttf in Resources */,
+				9A37F0E920A9DD68006B6A78 /* OpenSans-Regular.ttf in Resources */,
+				9A37F0E620A9DD68006B6A78 /* OpenSans-Italic.ttf in Resources */,
+				9A37F0E720A9DD68006B6A78 /* OpenSans-ExtraBold.ttf in Resources */,
+				9A42D1E620A3BB6D00A3234C /* TabBarItemView.xib in Resources */,
+				9A37F0E520A9DD68006B6A78 /* OpenSans-Light.ttf in Resources */,
 				9A2A5A372080E5F5008C6864 /* Assets.xcassets in Resources */,
+				9A45A0F220A4984F00E34703 /* Info.plist in Resources */,
 				9A84347620A1FDEC003038AD /* MainFlow.storyboard in Resources */,
-				9A42D1E320A3B6AB00A3234C /* TabBarView.xib in Resources */,
+				9A37F0E820A9DD68006B6A78 /* OpenSans-Bold.ttf in Resources */,
 				9A84347520A1FDEC003038AD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +563,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapToGo/Pods-MapToGo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9A45A0F320A49B4600E34703 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.Swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/MapToGo/Generated\"";
+		};
 		DA205854376E419CA951FA9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -535,10 +607,11 @@
 				9A42D1ED20A3C1EF00A3234C /* UIFontExtension.swift in Sources */,
 				9A42D1E120A3B5D900A3234C /* TabBarView.swift in Sources */,
 				9A2A5A352080E5F4008C6864 /* MapToGo.xcdatamodeld in Sources */,
-				9A42D1E820A3BB7700A3234C /* TabBarItem.swift in Sources */,
+				9A42D1E820A3BB7700A3234C /* TabBarItemView.swift in Sources */,
 				9AD48F3D20A1EDB200BA18E4 /* Notifications.swift in Sources */,
-				9A2A5A2F2080E5F4008C6864 /* ViewController.swift in Sources */,
+				9A45A10520A49F3300E34703 /* R.generated.swift in Sources */,
 				9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */,
+				9A45A10720A4A11500E34703 /* UIViewExtension+Helper.swift in Sources */,
 				9AB0C34F2084B3BA00F250BA /* Configurable.swift in Sources */,
 				9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */,
 				9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */,

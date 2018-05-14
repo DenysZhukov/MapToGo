@@ -1,5 +1,5 @@
 //
-//  TabBarItem.swift
+//  TabBarItemView.swift
 //  MapToGo
 //
 //  Created by Denys on 5/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarItem: UIView {
+class TabBarItemView: UIControl {
     
     @IBOutlet private weak var titleLabel: UILabel! {
         didSet {
