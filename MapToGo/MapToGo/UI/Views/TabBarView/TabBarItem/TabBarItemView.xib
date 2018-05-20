@@ -16,9 +16,9 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYy-uC-2gu">
-                    <rect key="frame" x="39.5" y="20" width="41.5" height="20"/>
+                    <rect key="frame" x="39.5" y="15" width="41.5" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="20" id="kkd-t3-kBt"/>
+                        <constraint firstAttribute="height" constant="30" id="kkd-t3-kBt"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
                     <nil key="textColor"/>

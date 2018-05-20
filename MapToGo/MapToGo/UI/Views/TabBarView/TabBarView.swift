@@ -26,28 +26,28 @@ class TabBarView: UIView {
     let itemTypes: [TabBarItemType] = [.map, .setting]
     var itemViews: [TabBarItemView] = []
     
-    //MARK: - Initialization -
-//    required init?(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)
-//        setupLayout()
-//    }
-//
-//    override init(frame: CGRect) {
-//        super.init(frame: frame)
-//        setupLayout()
-//    }
-    
+    //MARK: - Configure -
     override func awakeFromNib() {
         super.awakeFromNib()
         setupLayout()
+        baseShadow(offset: CGSize(width: 0.0, height: -10.0))
+        selectItem(with: .map)
     }
     
+    //MAKR: - Interface methods -
+    func selectItem(with type: TabBarItemType) {
+        let tabBarItem = itemViews.first(where: { $0.type == type })
+        tabBarItem?.isSelected = true
+    }
+    
+    //MARK: - Private methods -
     private func setupLayout() {
         itemViews.forEach { $0.removeFromSuperview() }
         itemViews.removeAll()
         for (idx, item) in itemTypes.enumerated() {
             let itemView = TabBarItemView.fromNib()
-            itemView.itemText = item.title
+            itemView.type = item
+            itemView.actionCallback = tabBarItemCallback()
             addSubview(itemView)
             switch idx {
             case 0:
@@ -70,6 +70,15 @@ class TabBarView: UIView {
                 }
             }
             itemViews.append(itemView)
+        }
+    }
+    
+    private func tabBarItemCallback() -> TabBarItemCallback {
+        return  { [weak self] type in
+            guard let selectedItem = self?.itemViews.first(where: { $0.isSelected }) else { return }
+            selectedItem.isSelected = false
+            guard let tapped = self?.itemViews.first(where: { $0.type == type }) else { return }
+            tapped.isSelected = true
         }
     }
 }

@@ -29,7 +29,7 @@
 		9A42D1ED20A3C1EF00A3234C /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */; };
 		9A45A0F220A4984F00E34703 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A45A0F120A4984F00E34703 /* Info.plist */; };
 		9A45A10520A49F3300E34703 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A10420A49F3300E34703 /* R.generated.swift */; };
-		9A45A10720A4A11500E34703 /* UIViewExtension+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */; };
+		9A45A10720A4A11500E34703 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A10620A4A11500E34703 /* UIViewExtension.swift */; };
 		9A84347520A1FDEC003038AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347120A1FDEC003038AD /* LaunchScreen.storyboard */; };
 		9A84347620A1FDEC003038AD /* MainFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84347320A1FDEC003038AD /* MainFlow.storyboard */; };
 		9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */; };
@@ -87,7 +87,7 @@
 		9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
 		9A45A0F120A4984F00E34703 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MapToGo/Info.plist; sourceTree = SOURCE_ROOT; };
 		9A45A10420A49F3300E34703 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
-		9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewExtension+Helper.swift"; sourceTree = "<group>"; };
+		9A45A10620A4A11500E34703 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		9A84347220A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A84347420A1FDEC003038AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainFlow.storyboard; sourceTree = "<group>"; };
 		9A84347B20A1FF7E003038AD /* MainContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 			children = (
 				9A42D1EA20A3C0BB00A3234C /* UIColorExtension.swift */,
 				9A42D1EC20A3C1EF00A3234C /* UIFontExtension.swift */,
-				9A45A10620A4A11500E34703 /* UIViewExtension+Helper.swift */,
+				9A45A10620A4A11500E34703 /* UIViewExtension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -611,7 +611,7 @@
 				9AD48F3D20A1EDB200BA18E4 /* Notifications.swift in Sources */,
 				9A45A10520A49F3300E34703 /* R.generated.swift in Sources */,
 				9A84347C20A1FF7E003038AD /* MainContainerViewController.swift in Sources */,
-				9A45A10720A4A11500E34703 /* UIViewExtension+Helper.swift in Sources */,
+				9A45A10720A4A11500E34703 /* UIViewExtension.swift in Sources */,
 				9AB0C34F2084B3BA00F250BA /* Configurable.swift in Sources */,
 				9A37260D2081027500070267 /* ApplicationFlowManager.swift in Sources */,
 				9A37261120810AFD00070267 /* ReachabilityManager.swift in Sources */,

@@ -14,6 +14,10 @@ extension UIColor {
         return UIColor.colorWith(red: 33.0, green: 33.0, blue: 33.0)
     }
     
+    static var blueBerry: UIColor {
+        return UIColor.colorWith(red: 90.0, green: 48.0, blue: 149.0)
+    }
+    
     private static func colorWith(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat = 1.0) -> UIColor {
         return UIColor.init(red: red / 255.0, green: green / 255.0, blue: blue / 255.0, alpha: alpha / 1.0)
     }
