@@ -13,6 +13,7 @@ struct R: Rswift.Validatable {
   fileprivate static let hostingBundle = Bundle(for: R.Class.self)
   
   static func validate() throws {
+    try font.validate()
     try intern.validate()
   }
   
@@ -21,10 +22,22 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 1 files.
+  /// This `R.file` struct is generated, and contains static references to 7 files.
   struct file {
     /// Resource file `Info.plist`.
     static let infoPlist = Rswift.FileResource(bundle: R.hostingBundle, name: "Info", pathExtension: "plist")
+    /// Resource file `OpenSans-Bold.ttf`.
+    static let openSansBoldTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "OpenSans-Bold", pathExtension: "ttf")
+    /// Resource file `OpenSans-ExtraBold.ttf`.
+    static let openSansExtraBoldTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "OpenSans-ExtraBold", pathExtension: "ttf")
+    /// Resource file `OpenSans-Italic.ttf`.
+    static let openSansItalicTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "OpenSans-Italic", pathExtension: "ttf")
+    /// Resource file `OpenSans-Light.ttf`.
+    static let openSansLightTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "OpenSans-Light", pathExtension: "ttf")
+    /// Resource file `OpenSans-Regular.ttf`.
+    static let openSansRegularTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "OpenSans-Regular", pathExtension: "ttf")
+    /// Resource file `OpenSans-Semibold.ttf`.
+    static let openSansSemiboldTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "OpenSans-Semibold", pathExtension: "ttf")
     
     /// `bundle.url(forResource: "Info", withExtension: "plist")`
     static func infoPlist(_: Void = ()) -> Foundation.URL? {
@@ -32,11 +45,99 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
+    /// `bundle.url(forResource: "OpenSans-Bold", withExtension: "ttf")`
+    static func openSansBoldTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.openSansBoldTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "OpenSans-ExtraBold", withExtension: "ttf")`
+    static func openSansExtraBoldTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.openSansExtraBoldTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "OpenSans-Italic", withExtension: "ttf")`
+    static func openSansItalicTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.openSansItalicTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "OpenSans-Light", withExtension: "ttf")`
+    static func openSansLightTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.openSansLightTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "OpenSans-Regular", withExtension: "ttf")`
+    static func openSansRegularTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.openSansRegularTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "OpenSans-Semibold", withExtension: "ttf")`
+    static func openSansSemiboldTtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.openSansSemiboldTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     fileprivate init() {}
   }
   
-  /// This `R.font` struct is generated, and contains static references to 0 fonts.
-  struct font {
+  /// This `R.font` struct is generated, and contains static references to 6 fonts.
+  struct font: Rswift.Validatable {
+    /// Font `OpenSans-Bold`.
+    static let openSansBold = Rswift.FontResource(fontName: "OpenSans-Bold")
+    /// Font `OpenSans-Extrabold`.
+    static let openSansExtrabold = Rswift.FontResource(fontName: "OpenSans-Extrabold")
+    /// Font `OpenSans-Italic`.
+    static let openSansItalic = Rswift.FontResource(fontName: "OpenSans-Italic")
+    /// Font `OpenSans-Light`.
+    static let openSansLight = Rswift.FontResource(fontName: "OpenSans-Light")
+    /// Font `OpenSans-Semibold`.
+    static let openSansSemibold = Rswift.FontResource(fontName: "OpenSans-Semibold")
+    /// Font `OpenSans`.
+    static let openSans = Rswift.FontResource(fontName: "OpenSans")
+    
+    /// `UIFont(name: "OpenSans", size: ...)`
+    static func openSans(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: openSans, size: size)
+    }
+    
+    /// `UIFont(name: "OpenSans-Bold", size: ...)`
+    static func openSansBold(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: openSansBold, size: size)
+    }
+    
+    /// `UIFont(name: "OpenSans-Extrabold", size: ...)`
+    static func openSansExtrabold(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: openSansExtrabold, size: size)
+    }
+    
+    /// `UIFont(name: "OpenSans-Italic", size: ...)`
+    static func openSansItalic(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: openSansItalic, size: size)
+    }
+    
+    /// `UIFont(name: "OpenSans-Light", size: ...)`
+    static func openSansLight(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: openSansLight, size: size)
+    }
+    
+    /// `UIFont(name: "OpenSans-Semibold", size: ...)`
+    static func openSansSemibold(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: openSansSemibold, size: size)
+    }
+    
+    static func validate() throws {
+      if R.font.openSansLight(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'OpenSans-Light' could not be loaded, is 'OpenSans-Light.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.openSansItalic(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'OpenSans-Italic' could not be loaded, is 'OpenSans-Italic.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.openSansSemibold(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'OpenSans-Semibold' could not be loaded, is 'OpenSans-Semibold.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.openSans(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'OpenSans' could not be loaded, is 'OpenSans-Regular.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.openSansBold(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'OpenSans-Bold' could not be loaded, is 'OpenSans-Bold.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.openSansExtrabold(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'OpenSans-Extrabold' could not be loaded, is 'OpenSans-ExtraBold.ttf' added to the UIAppFonts array in this targets Info.plist?") }
+    }
+    
     fileprivate init() {}
   }
   
